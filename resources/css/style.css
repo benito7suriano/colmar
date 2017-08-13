@@ -1,0 +1,28 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Header Section */
+
+header {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+header .logo {
+  margin-left: 1.5rem;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+header nav a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+}
