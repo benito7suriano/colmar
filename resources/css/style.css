@@ -17,12 +17,145 @@ header {
 
 header .logo {
   margin-left: 1.5rem;
+  font-size: 1.5rem;
   display: flex;
   -ms-align-items: center;
   align-items: center;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+}
+
+header img {
+  height: 3rem;
+}
+
+header span {
+  color: rgb(86, 89, 87);
+  font-weight: 400;
 }
 
 header nav a {
   margin-right: 1.5rem;
+  color: rgb(86, 89, 87);
   text-decoration: none;
+}
+
+/* Main Section */
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(218, 218, 218);
+}
+
+.main .media-container,
+.news .main-news {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.main .media-container img,
+.news .media-container img {
+  width: 100%;
+  height: auto;
+  /*margin: 2rem 1.5rem;*/
+}
+
+.main .information {
+  width: 30%;
+}
+
+.main h1,
+.news h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: rgb(60, 60, 60);
+}
+
+.main h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5vw;
+  color: rgb(60, 60, 60);
+}
+
+.main .btn {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(60, 60, 60);
+  color: rgb(230, 230, 230);
+  padding: 0.5rem 0;
+}
+
+/* News Section */
+/* Main Section */
+.news {
+  display: flex;
+  justify-content: center;
+}
+
+.news .main-info {
+  margin: 2rem 0;
+}
+
+.news .main-info h1 {
+  margin-bottom: 1.5rem;
+}
+
+.news .main-info p {
+  margin-bottom: 2.5rem;
+  font-weight: lighter;
+}
+/* Sidebar */
+.news .side-bar {
+  width: 40%;
+  margin-top: 1rem;
+}
+
+.news .info-box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.news .info-box:last-child {
+  background-color: rgb(218, 218, 218);
+}
+
+.news .info-box .media-container {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+.news .media-container img {
+  width: 100%;
+  height: auto;
+}
+
+.news .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1rem;
+  width: 65%;
+}
+
+.news .info h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(60, 60, 60);
+}
+
+.news .info p {
+  font-size: 1rem;
+  color: rgb(60, 60, 60);
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+.news .read {
+  color: rgb(1, 169, 222);
+  font-weight: lighter;
 }
