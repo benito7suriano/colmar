@@ -96,12 +96,12 @@ header .btn-wow:active {
   header .mobile {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
   }
 
   header nav a {
     margin-right: 0;
-    padding: 1.5rem;
+    padding: 1rem;
   }
 }
 
