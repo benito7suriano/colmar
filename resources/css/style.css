@@ -459,6 +459,7 @@ header .btn-wow:active {
 .exhibit h1 {
   margin: 2rem auto;
   margin-bottom: 0;
+  text-align: center;
 }
 
 @media only screen and (max-width:470px) {
